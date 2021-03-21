@@ -55,12 +55,11 @@
 
 # Delivery Note
 
-<img src="images/delivery note pg-01.jpg" style="float: right"/>
-
-----
+<img src="images/delivery note pg-01.jpg" style="float:left"/>
 
 
 <img src="images/delivery note pg-02.jpg" style="float: right"/>
+
 ----
 
 # Payment Request
