@@ -4,7 +4,7 @@
 
 ## Company
 
-![bg :100% 90%](images/Company.png)
+![bg :100% 90%](https://raw.githubusercontent.com/Falcon-Coders1/TCC_Project/main/images/Company.png)
 
 ---
 
