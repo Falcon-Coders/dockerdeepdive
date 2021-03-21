@@ -35,20 +35,20 @@
 ----
 
 # Quotation
-
+<p>
 <img src="images/Quotation.jpg" style="width:500px;height:600px;"/>
-
+</p>
 ---- 
 
 # Sales order
+<p>
 <img src="images/sales order-pg-01.jpg" style="float: right"/>
-
-
+</p>
 
 ---
-
+<p>
 <img src="images/sales order pg-02.jpg" style="float: right"/>
-
+</p>
 
 
 ---
@@ -57,7 +57,8 @@ Delivery Note
 
 <p align="left">
 <img src="images/delivery note pg-01.jpg" style="float:left"/>
- </p>
+</p>
+
 <p align="right">
 <img src="images/delivery note pg-02.jpg" style="float: right"/>
 </p>
