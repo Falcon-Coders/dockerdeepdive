@@ -107,7 +107,7 @@
 
 ------
 
-### Profit and Loss Statement
+ Profit and Loss Statement
 <img src="images/ProfitAndLoss.png" style="float: right"/>
 
 
