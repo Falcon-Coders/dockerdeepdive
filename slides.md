@@ -2,27 +2,27 @@
 
 ---
 
-## '''Company'''
+## Company
 
-![bg :100% 90%](https://raw.githubusercontent.com/Falcon-Coders1/TCC_Project/main/images/Company.png)
+![](https://raw.githubusercontent.com/Falcon-Coders1/TCC_Project/main/images/Company.png)
 
 ---
 
-## # ```Item Group```
+## Item Group
 <!-- .slide: style="text-align: left;"> -->
-![bg :100% 90%](https://github.com/Falcon-Coders1/TCC_Project/blob/main/images/ItemGroup.png)
+![](https://github.com/Falcon-Coders1/TCC_Project/blob/main/images/ItemGroup.png)
 
 ---
 
 ## '''Item List'''
 <!-- .slide: style="text-align: left;"> -->
-![bg :100% 90%](https://github.com/Falcon-Coders1/TCC_Project/blob/main/images/ItemList.png)
+![](https://github.com/Falcon-Coders1/TCC_Project/blob/main/images/ItemList.png)
 
 ---
 
 # Isolation
 
-![bg :100% 90%](https://github.com/Falcon-Coders1/TCC_Project/blob/main/images/ItemList.png)
+![](https://github.com/Falcon-Coders1/TCC_Project/blob/main/images/ItemList.png)
 
 ---
 
