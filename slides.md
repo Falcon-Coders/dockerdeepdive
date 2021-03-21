@@ -53,7 +53,8 @@
 
 ---
 
-# Delivery Note
+Delivery Note
+
 <p align="left">
 <img src="images/delivery note pg-01.jpg" style="float:left"/>
  </p>
