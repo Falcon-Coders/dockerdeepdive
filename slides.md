@@ -10,96 +10,99 @@
 ---
 
 # Item Group
-![bg :100% 70%](images/ItemGroup.png)
+<!-- .slide: style="text-align: left;"> -->
+<img src="images/ItemGroup.pngg" style="float: right"/>
+
 
 ---
 
 # Item List
-![bg :100% 70%](images/ItemList.png)
+
+<img src="images/ItemList.png" style="float: right"/>
 
 ---
 
 # Customer List
-![bg :90% 70%](images/CustomerList.png)
 
+<img src="images/CustomerList.png" style="float: right"/>
 ----
 
 # Price List
-![bg :90% 70%](images/PriceList.png)
 
+<img src="images/PriceList.png" style="float: right"/>
 ----
 
 # Quotation
-![bg right :100% 90%](images/Quotation.jpg)
 
+<img src="images/Quotation.jpg" style="float: right"/>
 ---- 
 # Sales order
+<img src="images/sales order-pg-01.jpg" style="float: right"/>
 
-![bg left :100% 70%](https://user-images.githubusercontent.com/57444962/111754875-7bf8d180-88be-11eb-861c-a32bf699de75.jpg)
 
 
 ---
 
+<img src="images/sales order pg-02.jpg" style="float: right"/>
 
-![bg left :100% 70%](https://user-images.githubusercontent.com/57444962/111754987-9d59bd80-88be-11eb-88ff-a6da118a1219.jpg)
 
 
 ---
 
 # Delivery Note
-![bg right :100% 70%](https://user-images.githubusercontent.com/57444962/111756309-13125900-88c0-11eb-9ed4-9691acb2e406.jpg)
 
+<img src="images/delivery note pg-01.jpg" style="float: right"/>
 
 ----
 
-![bg right :100% 70%](https://user-images.githubusercontent.com/57444962/111756373-232a3880-88c0-11eb-8f84-0bff4bc017df.jpg)
 
+<img src="images/delivery note pg-02.jpg" style="float: right"/>
 ----
 
 # Payment Request
 ![bg left :100% 70%](images/Payment_Request.jpg)
-
+<img src="images/Payment_Request.jpg" style="float: right"/>
 ----
 
 # Sales Invoice
-![bg right :100% 70%](images/Sales_Invoice.jpg)
 
+<img src="images/Sales_Invoice.jpg" style="float: right"/>
 ----
 
 # Payment Entry
-![bg left :100% 70%](images/Payment_Entry.jpg)
 
+<img src="images/Payment_Entry.jpg" style="float: right"/>
 ----
 
 # Email
-![bg :90% 70%](images/Email.png)
 
+<img src="images/Email.png" style="float: right"/>
 ----
 
 # Chart of Account
 ![bg  :100% 70%](images/ChartOfAccounts.png)
-
+<img src="images/ChartOfAccounts.png" style="float: right"/>
 ----
 
 # General Ledger
+<img src="images/GeneralLedger.png" style="float: right"/>
 
-![bg :100% 80%](images/GeneralLedger.png)
 
 ---
 
 # Journal Entry
+<img src="images/JournalEntry.png" style="float: right"/>
 
-![bg :100% 80%](images/JournalEntry.png)
 
 ---
 
 # Balance Sheet
-![bg :100% 80%](images/BalanceSheet.png)
 
+<img src="images/BalanceSheet.png" style="float: right"/>
 ------
 
 # Profit and Loss Statement
+<img src="images/ProfitAndLoss.png" style="float: right"/>
 
-![bg :90% 80%](images/ProfitAndLoss.png)
 
 
