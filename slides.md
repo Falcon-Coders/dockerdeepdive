@@ -2,29 +2,27 @@
 
 ---
 
-## Company
+## '''Company'''
 
 ![bg :100% 90%](https://raw.githubusercontent.com/Falcon-Coders1/TCC_Project/main/images/Company.png)
 
 ---
 
-## Session Aim
+## # ```Item Group```
 <!-- .slide: style="text-align: left;"> -->
-To provide a deeper knowledge of the Docker platform
+![bg :100% 90%](https://github.com/Falcon-Coders1/TCC_Project/blob/main/images/ItemGroup.png)
 
 ---
 
-## Agenda
+## '''Item List'''
 <!-- .slide: style="text-align: left;"> -->
-- Isolation<br>
-- Networking<br>
-- Persisting data<br>
-- Custom images<br>
-- Docker Compose<br>
+![bg :100% 90%](https://github.com/Falcon-Coders1/TCC_Project/blob/main/images/ItemList.png)
 
 ---
 
 # Isolation
+
+![bg :100% 90%](https://github.com/Falcon-Coders1/TCC_Project/blob/main/images/ItemList.png)
 
 ---
 
