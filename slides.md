@@ -3,8 +3,9 @@
 ---
 
 # Company
+<!-- .slide: style="text-align: left;"> -->
+<img src="images/Company.png" style="float: right"/>
 
-![bg :100% 90%](images/Company.png)
 
 ---
 
