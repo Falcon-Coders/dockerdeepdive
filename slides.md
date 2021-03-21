@@ -36,7 +36,7 @@
 
 # Quotation
 
-<img src="images/Quotation.jpg" style="float: right"/>
+<img src="images/Quotation.jpg" style="width:500px;height:600px;"/>
 
 ---- 
 
