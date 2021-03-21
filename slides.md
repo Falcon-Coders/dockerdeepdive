@@ -1,208 +1,102 @@
-# ERPnext
+---
+theme: gaia
+_class: lead
+paginate: true
+backgroundColor: #fff
+marp: true
+
+backgroundImage: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSKFcfc3lLfpbn8A5tdeEJ1htvfSaduvEn1Lg&usqp=CAU')
+
+---
+# ```ERPNext```
 
 ---
 
-## Company
+# ```Company```
 
-![](https://raw.githubusercontent.com/Falcon-Coders1/TCC_Project/main/images/Company.png)
-
----
-
-## Item Group
-<!-- .slide: style="text-align: left;"> -->
-![](https://github.com/Falcon-Coders1/TCC_Project/blob/main/images/ItemGroup.png)
+![bg :100% 90%](images/Company.png)
 
 ---
 
-## '''Item List'''
-<!-- .slide: style="text-align: left;"> -->
-![](https://github.com/Falcon-Coders1/TCC_Project/blob/main/images/ItemList.png)
+# ```Item Group```
+![bg :100% 70%](images/ItemGroup.png)
+
+---
+# ```Item List```
+![bg :100% 70%](images/ItemList.png)
+
+---
+# ```Customer List```
+![bg :90% 70%](images/CustomerList.png)
+
+----
+# ```Price List```
+![bg :90% 70%](images/PriceList.png)
+
+----
+# ```Quotation```
+![bg right :100% 90%](images/Quotation.jpg)
+
+---- 
+# ```Sales order```
+![bg left :100% 70%](https://user-images.githubusercontent.com/57444962/111754875-7bf8d180-88be-11eb-861c-a32bf699de75.jpg)
+
 
 ---
 
-# Isolation
+![bg left :100% 70%](https://user-images.githubusercontent.com/57444962/111754987-9d59bd80-88be-11eb-88ff-a6da118a1219.jpg)
 
-![](https://github.com/Falcon-Coders1/TCC_Project/blob/main/images/ItemList.png)
-
----
-
-## Container Isolation
-<!-- .slide: style="text-align: left;"> -->
-"Containers isolate software from its environment and ensure that it works uniformly despite differences for instance between development and staging"<br>
-<font size="6"><a href="https://www.docker.com/resources/what-container">docker.com/resources/what-container</a></font>
 
 ---
 
-## Control Groups
-<!-- .slide: style="text-align: left;"> -->
-Ensures a single container cannot consume all<br>
-resources of the host<br>
-<br>
-Implements resource limiting of:-
-- CPU
-- Memory
+# ```Delivery Note```
+![bg right :100% 70%](https://user-images.githubusercontent.com/57444962/111756309-13125900-88c0-11eb-9ed4-9691acb2e406.jpg)
+
+
+----
+
+![bg right :100% 70%](https://user-images.githubusercontent.com/57444962/111756373-232a3880-88c0-11eb-8f84-0bff4bc017df.jpg)
+
+
+----
+# ```Payment Request```
+![bg left :100% 70%](images/Payment_Request.jpg)
+
+----
+# ```Sales Invoice```
+![bg right :100% 70%](images/Sales_Invoice.jpg)
+
+----
+# ```Payment Entry```
+![bg left :100% 70%](images/Payment_Entry.jpg)
+
+----
+
+# ```Email```
+![bg :90% 70%](images/Email.png)
+
+----
+# ```Chart of Accounts```
+![bg  :100% 70%](images/ChartOfAccounts.png)
+
+----
+# ```General Ledger```
+
+![bg :100% 80%](images/GeneralLedger.png)
 
 ---
+# ```Journal Entry```
 
-## Namespaces
-<!-- .slide: style="text-align: left;"> -->
-Control what a container can see<br>
-<br>
-Used to control:-<br>
-- Hostname within the container
-- Processes that the container can see
-- Mapping users in the container to users on the host
+![bg :100% 80%](images/JournalEntry.png)
 
 ---
+# ```Balance Sheet```
+![bg :100% 80%](images/BalanceSheet.png)
 
-## File system
-<!-- .slide: style="text-align: left;"> -->
-- Containers cannot see the entire host's filesystem<br>
-- They can only see a subset of that filesystem<br>
-- The container root directory is changed
+------
 
----
+# ```Profit and Loss Statement```
 
-# Demo
+![bg :90% 80%](images/ProfitAndLoss.png)
 
----
-
-# Networking
-
----
-
-## Default networks
-<!-- .slide: style="text-align: left;"> -->
-<img src="images/docker_default_networks.png" style="float: right"/>
-
-- bridge<br>
-- host<br>
-- none<br>
-
----
-
-## Bridge network
-<!-- .slide: style="text-align: left;"> -->
-- Default network<br>
-- Represents _docker0_ network<br>
-- Containers communicate by IP address<br>
-- Supports port mapping 
-
----
-
-## User defined networks
-<!-- .slide: style="text-align: left;"> -->
-- Docker provide multiple drivers<br>
-- DNS resolution of container names to IP addresses<br>
-- Can be connected to more than one network<br>
-- Connect/disconnect from networks without restarting<br>
-
----
-
-# Demo
-
----
-
-# Persisting data
-
----
-
-## Options for persisting data
-<!-- .slide: style="text-align: left;"> -->
-- Bind mounts<br>
-- Data volume containers<br>
-- Named volumes
-
----
-
-# Demo
-
----
-
-# Custom images
-
----
-
-## Building your own image
-<!-- .slide: style="text-align: left;"> -->
-- Custom images built from a file<br>
-- Known as a dockerfile<br>
-- Customise the image to grant permissions<br>
-- Add databases to SQL Server<br>
-
----
-
-## Dockerfile
-
-<pre><code data-line-numbers="1|3|5-8|10|12|14">FROM mcr.microsoft.com/mssql/server:2019-CU5-ubuntu-18.04
-
-USER root
-
-RUN mkdir /var/opt/sqlserver
-RUN mkdir /var/opt/sqlserver/sqldata
-RUN mkdir /var/opt/sqlserver/sqllog
-RUN mkdir /var/opt/sqlserver/sqlbackups
-
-RUN chown -R mssql /var/opt/sqlserver
-
-USER mssql
-
-CMD /opt/mssql/bin/sqlservr
-</pre></code>
-
----
-
-# Demo
-
----
-
-# Docker Compose
-
----
-
-## Docker container run
-
-<pre><code data-line-numbers="1|2|3-8|9|10-13|14|15">docker run -d
---publish 15789:1433
---env SA_PASSWORD=Testing1122
---env ACCEPT_EULA=Y
---env MSSQL_AGENT_ENABLED=True
---env MSSQL_DATA_DIR=/var/opt/sqlserver/sqldata
---env MSSQL_LOG_DIR=/var/opt/sqlserver/sqllog
---env MSSQL_BACKUP_DIR=/var/opt/sqlserver/sqlbackups
---network sqlserver
---volume sqlsystem:/var/opt/mssql
---volume sqldata:/var/opt/sqlserver/sqldata
---volume sqllog:/var/opt/sqlserver/sqllog
---volume sqlbackup:/var/opt/sqlserver/sqlbackups
---name sqlcontainer1
-mcr.microsoft.com/mssql/server:2019-CU5-ubuntu-18.04
-</pre></code>
-
----
-
-## What is Compose?
-<!-- .slide: style="text-align: left;"> -->
-"Compose is a tool for defining and running multi-container Docker applications.
-With Compose, you use a YAML file to configure your application`s services.
-Then, with a single command, you create and start all the services from your configuration."<br>
-<font size="6"><a href="https://docs.docker.com/compose/">docs.docker.com/compose</a></font>
-
----
-
-# Demo
-
----
-
-## Resources
-<!-- .slide: style="text-align: left;"> -->
-<font size="6">
-<a href="https://github.com/dbafromthecold/DockerDeepDive">https://github.com/dbafromthecold/DockerDeepDive</a><br>
-<a href="http://tinyurl.com/y3x29t3j/summary-of-my-container-series">http://tinyurl.com/y3x29t3j/summary-of-my-container-series</a><br>
-<a href="https://github.com/dbafromthecold/SqlServerAndContainersGuide">https://github.com/dbafromthecold/SqlServerAndContainersGuide</a>
-</font>
-
-<p align="center">
-<img src="images/dockerdeepdive_qr_code.png" />
-</p>
 
