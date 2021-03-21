@@ -56,11 +56,11 @@
 Delivery Note
 
 <p align="left">
-<img src="images/delivery note pg-01.jpg" style="float:left"/>
+<img src="images/delivery note pg-01.jpg" style="width:128px;height:128px;"/>
 </p>
 
 <p align="right">
-<img src="images/delivery note pg-02.jpg" style="float: right"/>
+<img src="images/delivery note pg-02.jpg" style="width:128px;height:128px;"/>
 </p>
 ----
 
