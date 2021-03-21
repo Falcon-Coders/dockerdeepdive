@@ -1,8 +1,8 @@
-# Docker Deep Dive
+# ERPnext
 
 ---
 
-## Andrew Pruski
+## Company
 
 ### SQL Server DBA, Microsoft Data Platform MVP, & Certified Kubernetes Administrator
 <!-- .slide: style="text-align: left;"> -->
