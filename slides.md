@@ -1,13 +1,4 @@
----
-theme: gaia
-_class: lead
-paginate: true
-backgroundColor: #fff
-marp: true
 
-backgroundImage: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSKFcfc3lLfpbn8A5tdeEJ1htvfSaduvEn1Lg&usqp=CAU')
-
----
 # ```ERPNext```
 
 ---
