@@ -54,12 +54,12 @@
 ---
 
 # Delivery Note
-
+<p align="left">
 <img src="images/delivery note pg-01.jpg" style="float:left"/>
-
-
+ </p>
+<p align="right">
 <img src="images/delivery note pg-02.jpg" style="float: right"/>
-
+</p>
 ----
 
 # Payment Request
