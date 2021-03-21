@@ -1,35 +1,34 @@
-
-# ```ERPNext```
+# ERPNext
 
 ---
 
-# ```Company```
+# Company
 
 ![bg :100% 90%](images/Company.png)
 
 ---
 
-# ```Item Group```
+# Item Group
 ![bg :100% 70%](images/ItemGroup.png)
 
 ---
-# ```Item List```
+# Item List
 ![bg :100% 70%](images/ItemList.png)
 
 ---
-# ```Customer List```
+# Customer List
 ![bg :90% 70%](images/CustomerList.png)
 
 ----
-# ```Price List```
+# Price List
 ![bg :90% 70%](images/PriceList.png)
 
 ----
-# ```Quotation```
+# Quotation
 ![bg right :100% 90%](images/Quotation.jpg)
 
 ---- 
-# ```Sales order```
+# Sales order
 ![bg left :100% 70%](https://user-images.githubusercontent.com/57444962/111754875-7bf8d180-88be-11eb-861c-a32bf699de75.jpg)
 
 
@@ -40,7 +39,7 @@
 
 ---
 
-# ```Delivery Note```
+# Delivery Note
 ![bg right :100% 70%](https://user-images.githubusercontent.com/57444962/111756309-13125900-88c0-11eb-9ed4-9691acb2e406.jpg)
 
 
@@ -50,43 +49,43 @@
 
 
 ----
-# ```Payment Request```
+# Payment Request
 ![bg left :100% 70%](images/Payment_Request.jpg)
 
 ----
-# ```Sales Invoice```
+# Sales Invoice
 ![bg right :100% 70%](images/Sales_Invoice.jpg)
 
 ----
-# ```Payment Entry```
+# Payment Entry
 ![bg left :100% 70%](images/Payment_Entry.jpg)
 
 ----
 
-# ```Email```
+# Email
 ![bg :90% 70%](images/Email.png)
 
 ----
-# ```Chart of Accounts```
+# Chart of Account
 ![bg  :100% 70%](images/ChartOfAccounts.png)
 
 ----
-# ```General Ledger```
+# General Ledger
 
 ![bg :100% 80%](images/GeneralLedger.png)
 
 ---
-# ```Journal Entry```
+# Journal Entry
 
 ![bg :100% 80%](images/JournalEntry.png)
 
 ---
-# ```Balance Sheet```
+# Balance Sheet
 ![bg :100% 80%](images/BalanceSheet.png)
 
 ------
 
-# ```Profit and Loss Statement```
+# Profit and Loss Statement
 
 ![bg :90% 80%](images/ProfitAndLoss.png)
 
