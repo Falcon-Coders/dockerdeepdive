@@ -56,17 +56,18 @@
 Delivery Note
 
 <p align="left">
-<img src="images/delivery note pg-01.jpg" style="width:128px;height:128px;"/>
+<img src="images/delivery note pg-01.jpg" style="width:400px;height:800px;"/>
 </p>
 
 <p align="right">
-<img src="images/delivery note pg-02.jpg" style="width:128px;height:128px;"/>
+<img src="images/delivery note pg-02.jpg" style="width:400px;height:800px;"/>
 </p>
 ----
 
 # Payment Request
 
 <img src="images/Payment_Request.jpg" style="float: right"/>
+
 ----
 
 # Sales Invoice
