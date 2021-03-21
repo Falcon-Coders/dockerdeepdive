@@ -25,17 +25,21 @@
 # Customer List
 
 <img src="images/CustomerList.png" style="float: right"/>
+
 ----
 
 # Price List
 
 <img src="images/PriceList.png" style="float: right"/>
+
 ----
 
 # Quotation
 
 <img src="images/Quotation.jpg" style="float: right"/>
+
 ---- 
+
 # Sales order
 <img src="images/sales order-pg-01.jpg" style="float: right"/>
 
@@ -60,7 +64,7 @@
 ----
 
 # Payment Request
-![bg left :100% 70%](images/Payment_Request.jpg)
+
 <img src="images/Payment_Request.jpg" style="float: right"/>
 ----
 
@@ -79,9 +83,10 @@
 <img src="images/Email.png" style="float: right"/>
 ----
 
-# Chart of Account
-![bg  :100% 70%](images/ChartOfAccounts.png)
+# Chart of Accounts
+
 <img src="images/ChartOfAccounts.png" style="float: right"/>
+
 ----
 
 # General Ledger
@@ -99,6 +104,7 @@
 # Balance Sheet
 
 <img src="images/BalanceSheet.png" style="float: right"/>
+
 ------
 
 # Profit and Loss Statement
